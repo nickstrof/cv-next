@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://your-domain.com'),
+  metadataBase: new URL(''),
   alternates: {
     canonical: '/',
   },
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://your-domain.com',
+    url: '',
     title: 'Nick Strofyllas - Full Stack Developer',
     description: 'Personal portfolio and blog of Nick Strofyllas, a Full Stack Developer specializing in React, Next.js, and modern web technologies.',
     siteName: 'Nick Strofyllas Portfolio',
