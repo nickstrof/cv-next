@@ -29,7 +29,6 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
       ? 'dark'
       : 'light';
     applyTheme(saved ?? system);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme, setTheme: applyTheme }}>

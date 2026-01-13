@@ -1,9 +1,11 @@
 'use client'
 import React, { useEffect, useState, FC } from "react";
 import { useTranslations } from "next-intl";
+
+const mottos = ["motto1", "motto2", "motto3", "motto4", "motto5"];
+
 const BannerFooter: FC = () => {
   const t = useTranslations("BannerFooter");
-  const mottos = ["motto1", "motto2", "motto3", "motto4", "motto5"];
   const [selectedMotto, setSelectedMotto] = useState("");
 
   useEffect(() => {
