@@ -1,0 +1,144 @@
+{
+    "Generic": {
+      "title": "Nick Strofyllas",
+      "motto": "",
+      "subtitle": ""
+    },
+    "Navigation": {
+      "language": "English",
+      "home": "Home",
+      "blog": "Blog",
+      "about": "About",
+      "contact": "Contact",
+      "stack": "Stack"
+    },
+    "BannerHeader": {
+      "title": "Header Banner"
+    },
+    "BannerFooter": {
+      "motto1": {
+        "text": "Code is like humor. When you have to explain it, it’s bad.",
+        "author": "Cory House"
+      },
+      "motto2": {
+        "text": "Creativity is intelligence having fun.",
+        "author": "Albert Einstein"
+      },
+      "motto3": {
+        "text": "The best way to predict the future is to create it.",
+        "author": "Peter Drucker"
+      },
+      "motto4": {
+        "text": "Your most unhappy customers are your greatest source of learning.",
+        "author": "Bill Gates"
+      },
+      "motto5": {
+        "text": "Design is not just what it looks like and feels like. Design is how it works.",
+        "author": "Steve Jobs"
+      },
+
+      "motto6": "From concept to code — I make it real.",
+      "motto7": "Let's build what matters.",
+      "motto8": "Precision. Performance. Purpose.",
+      "motto9": "Crafting solutions with clarity and code.",
+      "motto10": "Not just building — solving."
+    },
+    "Footer": {
+      "copyright": "© 2025 Nick Strofyllas.",
+      "terms": "Terms of service"
+    },
+    "HomePage": {
+      "hero": {
+        "intro": "Nick Strofyllas, a Frontend Developer at DPG Digital Media Group",
+        "name": "Nick Strofyllas",
+        "title": "Frontend Developer",
+        "cta": {
+          "blog": "Read the blog",
+          "stack": "Look my Stack"
+        },
+        "about": "Learn more about Nick"
+      },
+      "blog": {
+          "title": "Blog recommendations",
+          "subtitle": "Prepared especially for you",
+          "textLink": "See the full blog"
+      },
+      "stack": {
+          "title": "Stack",
+          "subtitle": "The tools and technologies that power my development workflow",
+          "textLink": "See the full stack",
+          "searchText": "Search by",
+          "errorMessage": "No results found for"
+      }
+    },
+    "StackPage": {
+        "title": "My Stack",
+        "subtitle": "Software and tools I use on a regular basis."
+    },
+    "BlogsPage": {
+      "title": "My Blogs",
+      "subtitle": "Here you will find my articles."
+    },
+    "BlogPage": {
+      "title": "My Blog",
+      "subtitle": "Upgrade your skills as a developer"
+    },
+    "AboutPage": {
+        "title": "About Me",
+        "subtitle": "I am Nick Strofyllas, a Frontend Developer.",
+        "hello": {
+          "intro": {
+            "paragraph1": "Hi, I'm Nikos. I work as a Frontend Developer at DPG Digital Media Group, where my team creates compelling UI/UX experiences for users.",
+            "paragraph2": "With over three years of experience designing and developing web software for companies and individuals, I have honed my skills in creating intuitive, user-friendly web applications that meet the needs of diverse clients. From concept to final delivery, I am experienced in all stages of the software development lifecycle."
+          },
+          "cta": "See my Stack",
+          "socials": {
+            "website": {
+              "href": "https://nstrofyllas.com",
+              "icon": "#icon-c-global",
+              "label": "@website"  
+            },
+            "github": {
+              "href": "https://github.com/nickstrof",
+              "icon": "#icon-c-github",
+              "label": "@github"
+            },
+            "linkedin": {
+              "href": "https://www.linkedin.com/in/nick-strofyllas/",
+              "icon": "#icon-c-linkedin",
+              "label": "@linkedin"
+            }
+          }
+        },
+        "experience": {
+          "title": "Ecperience",
+          "subtitle": "Here you will see my professional experience.",
+          "dpgmedia": {
+            "label": "DPG Digital Media · Full-time",
+            "description": "May 2022 · Present"
+          },
+          "digitalunity": {
+            "label": "Digital Unity · Full-time",
+            "description": "Jan 2022 · May 2022"
+          },
+          "artabout": {
+            "label": "Internship, ArtAbout eCommerce Agency · Full-time",
+            "description": "Apr 2021 · Sep 2021"
+          }
+      },
+      "education": {
+        "title": "Education",
+        "westernmacedonia":{
+          "label": "University of Western Macedonia",
+          "description": "Computer Engineering, Computer Software Engineering"
+        }
+      }
+    },
+    "ContactPage": {},
+    "ProjectsPage": {},
+    "NotFoundPage": {
+      "title": "404 - Page Not Found",
+      "description": "Sorry, we couldn’t find the page.",
+      "link": "Back to Home"
+    }
+  }

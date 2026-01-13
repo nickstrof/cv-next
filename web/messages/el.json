@@ -1,0 +1,141 @@
+{
+    "Generic": {
+    },
+    "Navigation": {
+        "language": "Ελληνικά",
+        "home": "Αρχική",
+        "blog": "Άρθρα",
+        "about": "Σχετικά με εμένα",
+        "contact": "Επικοινωνία",
+        "stack": "Εργαλεία"
+    },
+    "BannerHeader": {
+        "title": "Header Banner"
+    },
+    "BannerFooter": {
+        "motto1": {
+            "text": "Ο κώδικας είναι σαν το χιούμορ. Όταν πρέπει να τον εξηγήσεις, είναι κακός.",
+            "author": "Cory House"
+        },
+        "motto2": {
+            "text": "Η δημιουργικότητα είναι η ευφυΐα που διασκεδάζει.",
+            "author": "Albert Einstein"
+        },
+        "motto3": {
+            "text": "Ο καλύτερος τρόπος για να προβλέψεις το μέλλον είναι να το δημιουργήσεις.",
+            "author": "Peter Drucker"
+        },
+        "motto4": {
+            "text": "Οι πιο δυσαρεστημένοι πελάτες σου είναι η μεγαλύτερη πηγή μάθησης.",
+            "author": "Bill Gates"
+        },
+        "motto5": {
+            "text": "Ο σχεδιασμός δεν είναι απλώς αυτό που φαίνεται και αισθάνεται. Ο σχεδιασμός είναι ο τρόπος που λειτουργεί.",
+            "author": "Steve Jobs"
+        },
+        
+        "motto6": "Από την ιδέα στον κώδικα — το κάνω πραγματικότητα.",
+        "motto7": "Ας δημιουργήσουμε ό,τι έχει σημασία.",
+        "motto8": "Ακρίβεια. Απόδοση. Σκοπός.",
+        "motto9": "Δημιουργία λύσεων με σαφήνεια και κώδικα.",
+        "motto10": "Όχι απλώς κατασκευή — επίλυση."
+    },
+    "Footer": {
+        "copyright": "© 2025 Nick Strofyllas.",
+        "terms": "Όροι παροχής υπηρεσιών"
+    },
+    "HomePage": {
+        "hero": {
+            "intro": "Νίκος Στροφύλλας, Frontend Developer στην DPG Digital Media Group",
+            "name": "Νίκος Στροφύλλας",
+            "title": "Frontend Developer",
+            "cta": {
+              "blog": "Διαβάστε τα άρθρα",
+              "stack": "Δείτε τα εργαλεία"
+            },
+            "about": "Μάθετε περισσότερα για τον Νίκο"
+        },
+        "blog": {
+            "title": "Προτάσεις ιστολογίου",
+            "subtitle": "Ειδικά για εσάς",
+            "textLink": "Δείτε ολόκληρο το ιστολόγιο"
+        },
+        "stack": {
+            "title": "Stack",
+            "subtitle": "Τα εργαλεία και οι τεχνολογίες που τροφοδοτούν τη ροή εργασίας ανάπτυξης",
+            "textLink": "Δείτε το πλήρες stack",
+            "searchText": "Αναζήτηση από",
+            "errorMessage": "Δεν βρέθηκαν αποτελέσματα για"
+        }
+    },
+    "StackPage": {
+        "title": "Τα Εργαλεια μου",
+        "subtitle": "Λογισμικά και εργαλεία που χρησιμοποιώ σε τακτική βάση."
+    },
+    "BlogsPage": {
+        "title": "Τα άρθρα μου",
+        "subtitle": "Μάθετε ανάπτυξη με εξαιρετικά άρθρα."
+    },
+    "BlogPage": {
+      "title": "Το άρθρο μου",
+      "subtitle": "Ανεβείτε επίπεδο ως προγραμματιστής"
+    },
+    "AboutPage": {
+        "title": "Σχετικά με εμένα",
+        "subtitle": "Είμαι ο Νίκος Στροφύλλας, Frontend Developer.",
+        "hello": {
+            "intro": {
+                "paragraph1": "Γεια, είμαι ο Νίκος. Εργάζομαι ως Frontend Developer στην DPG Digital Media Group, όπου η ομάδα μου δημιουργεί εκληστικές UI/UX εμπειρίες για τους χρήστες.",
+                "paragraph2": "Με πάνω από τρία χρόνια εμπειρίας στο σχεδιασμό και την ανάπτυξη λογισμικού διαδικτύου για εταιρείες και ιδιώτες, έχω βελτιώσει τις δεξιότητές μου στη δημιουργία διαισθητικών, φιλικών προς το χρήστη διαδικτυακών εφαρμογών που ανταποκρίνονται στις ανάγκες διαφορετικών πελατών. Από τη σύλληψη της ιδέας έως την τελική παράδοση, είμαι έμπειρος σε όλα τα στάδια του κύκλου ζωής της ανάπτυξης λογισμικού."
+            },
+            "cta": "Δείτε το Stack μου",
+            "socials": {
+                "website": {
+                  "href": "https://nstrofyllas.com",
+                  "icon": "#icon-c-global",
+                  "label": "@website"  
+                },
+                "github": {
+                  "href": "https://github.com/nickstrof",
+                  "icon": "#icon-c-github",
+                  "label": "@github"
+                },
+                "linkedin": {
+                  "href": "https://www.linkedin.com/in/nick-strofyllas/",
+                  "icon": "#icon-c-linkedin",
+                  "label": "@linkedin"
+                }
+            }
+        },
+        "experience": {
+            "title": "Εμπειρία",
+            "subtitle": "Εδω θα δεις την επαγγελματική μου εμπειρία",
+            "dpgmedia": {
+              "label": "DPG Digital Media · Full-time",
+              "description": "May 2022 · Present"
+            },
+            "digitalunity": {
+              "label": "Digital Unity · Full-time",
+              "description": "Jan 2022 · May 2022"
+            },
+            "artabout": {
+              "label": "Internship, ArtAbout eCommerce Agency · Full-time",
+              "description": "Apr 2021 · Sep 2021"
+            }
+        },
+        "education": {
+            "title": "Εκπαίδευση",
+            "westernmacedonia":{
+              "label": "University of Western Macedonia",
+              "description": "Computer Engineering, Computer Software Engineering"
+            }
+        }
+    },
+    "ContactPage": {},
+    "ProjectsPage": {},
+    "NotFoundPage": {
+        "title": "404 - Η σελίδα δεν βρέθηκε!",
+        "description": "Λυπούμαστε, δεν μπορέσαμε να βρούμε τη σελίδα.",
+        "link": "Πίσω στην Αρχική"
+    }
+}

@@ -1,0 +1,104 @@
+.section-wrapper {
+    max-width: var(--max-width-container);
+    margin-inline: auto;
+    padding-block: var(--pad);
+}
+.section-wrapper-header {
+    margin-block: 2rem;
+}
+.section-wrapper-header-content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--pad);
+}
+.section-wrapper-title-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    max-width: 32rem;
+}
+.section-wrapper-title,
+.section-wrapper-subtitle {
+    font-size: clamp(1.5rem, 4.5vw, 2.25rem);
+    line-height: 1.25;
+}
+.section-wrapper-title {
+    color: var(--foreground);
+}
+.section-wrapper-subtitle {
+    color: var(--text-light-blue);
+}
+.section-wrapper .read-more {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+
+    text-align: left;
+    font-weight: 500;
+    text-decoration: none;
+    
+    color: var(--foreground);
+}
+.section-wrapper .read-more-text {
+    font-size: clamp(1.125rem, 3vw, 1.25rem);
+    font-weight: 500;
+    margin-right: 2rem;
+}
+
+.section-wrapper .read-more .wrapper-svg {
+    padding: .65em;
+    border: 2px solid var(--bg-gray);
+    border-radius: 3em;
+    transform: "none";
+}
+.section-wrapper .read-more-icon {
+    position: relative;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: none;
+    
+    height: 3.5rem;
+    width: 3.5rem;
+    padding: 0.25rem;
+}
+.section-wrapper .read-more-icon svg {
+    transform: rotate(-90deg);
+}
+@media only screen and (min-width: 768px) {
+    .section-wrapper {
+        padding-block: 4rem;
+    } 
+}
+@media only screen and (min-width: 1024px) {
+    .section-wrapper {
+        padding-block: 4rem 7rem;
+    }
+    .section-wrapper-header-content {
+        flex-direction: row;
+        align-items: end;
+        justify-content: space-between;
+        gap: 0;
+    }  
+    .section-wrapper-title-group {
+        gap: 0;
+    }
+}
+@media (any-hover: hover) {
+    .section-wrapper .read-more .wrapper-svg {
+        will-change: margin-left, border-color;
+        transition: margin-left .3s ease, border-color .3s ease;
+    }
+    .section-wrapper .read-more:hover .wrapper-svg {
+        margin-left: .5em;
+        border-color: var(--primary);
+    }
+    .section-wrapper .read-more-icon svg {
+        will-change: transform;
+        transition: transform 0.3s ease;
+    }
+    .section-wrapper .read-more:hover .read-more-icon svg {
+        transform: rotate(-90deg) scale(1.1);
+    }
+}

@@ -1,0 +1,64 @@
+/* .custom-header {        
+    position: fixed;
+    inset: 0 0 auto;
+    width: 100%;
+    background-color: color-mix(in srgb, var(--background) 90, rgb(0 0 0 / 0));
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid color-mix(in srgb, var(--foreground) 80%, rgb(0 0 0 / 0));
+    box-shadow: 0 1px 2px 0 color-mix(in srgb, var(--foreground) 5%, rgb(0 0 0 / 0)); 
+    z-index: 50;
+
+      will-change: background-color, box-shadow, border;
+      transition: background-color 0.5s ease, box-shadow 0.5s ease, border 0.5s ease;
+} */
+
+
+/* .custom-header .menu-item {
+  padding: .5em;
+  border-radius: .5em;
+  transition: color .3s ease, background-color .3s ease;
+}
+.custom-header .menu-item.is-active {
+  font-weight: 900;
+  color: var(--primary);
+} */
+
+
+
+
+/* .menu-item {
+  padding: 0.5rem; 
+  border-radius: 0.5rem;
+
+      will-change: color, background;
+      transition-property: color .3s ease, background-color .3s ease;
+}
+.menu-item:hover {
+  background-color: var(--bg-gray);
+}
+.menu-item.is-active {
+  font-weight: 900;
+  color: var(--primary);
+}  */
+
+
+
+.menu-item {
+  display: inline-block;
+  padding: 0.5rem; 
+  border-radius: 0.5rem;
+  
+      transition: background-color 0.2s ease;
+}
+.menu-item:hover {
+  background-color: var(--bg-gray);
+}
+.menu-item.is-active {
+  font-weight: 900;
+  color: var(--primary); 
+      
+      transition: none;
+}
+.menu-item {
+  transform: translateZ(0);
+}

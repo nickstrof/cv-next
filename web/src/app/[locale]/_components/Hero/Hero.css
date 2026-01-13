@@ -1,0 +1,291 @@
+/* 
+.hero {
+  background-image: radial-gradient(var(--primary) 5%,transparent 0);
+  background-repeat: repeat;
+  background-size: 20px 20px;
+} 
+*/
+.hero .inner {
+  display: grid;
+  align-items: center;
+  gap: var(--pad);
+
+  position: relative;
+
+  max-width: var(--max-width-container);
+  margin-inline: auto;
+  height: auto;
+  
+  padding-top: min(100px, 10vw);
+  padding-bottom: min(50px, 5vw);
+  margin-bottom: min(80px, 8vw);
+}
+.hero .line {
+  position: absolute;
+  inset: 0 5% 60% 70%;
+  background-color: color-mix(in srgb, var(--primary) 50%, rgb(0 0 0 / 0));
+  z-index: -1;
+  border-radius: 10em;
+}
+.hero .wrapper-img {
+  text-align: center;
+  margin: 0 auto 1.5em;
+}
+.hero .wrapper-img img {
+  max-width: 100%;
+  height: auto;
+}
+.hero .wrapper-info {
+  padding: 1.5rem 1rem auto;
+}
+.hero .inner-info {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+.hero .title {
+  font-size: clamp(1.875rem, 4vw, 2.25rem);
+  font-weight: 500;
+  line-height: 1.25;
+  text-align: center;
+  color: var(--foreground);
+}
+.hero .name {
+  font-size: clamp(1.975rem, 5vw, 2.5rem);
+  font-weight: 900;
+  line-height: 1.25;
+  text-align: center;
+  color: var(--primary);
+}
+/* 
+.hero .my-wrapper {
+  display: inline-block;
+  background-color: color-mix(in oklab, var(--primary) 30%, transparent);
+  color: var(--bg);
+  border-radius: .5em;
+  padding: .25em;
+  margin-block: .25em;
+} */
+.hero .cta-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--pad);
+  margin-top: 3.5rem;
+}
+.hero .cta-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.hero .cta-button {
+  font-size: clamp(1rem, 3vw, 1.125rem);
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+
+  position: relative;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.25rem;
+  
+  padding: 1.5rem 2.75rem;
+  border-radius: 5em;
+  border: 2px solid var(--color-primary);
+  
+  transition: all 0.3s ease;
+}
+.hero .cta-button.primary {
+  color: var(--color-primary);
+  background: transparent;
+}
+.hero .cta-button.secondary {
+  color: var(--color-custom-background);
+  background: var(--color-primary);
+}
+.hero .read-more-wrapper {
+  display: none;
+  padding-top: 3rem;
+}
+.hero .read-more {
+  display: inline-flex;
+  align-items: center;
+
+  font-size: clamp(1rem, 3vw, 1.125rem);
+  font-weight: 500;
+  text-align: left;
+  text-decoration: none;
+
+  color: var(--color-primary);
+    
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.hero .read-more-icon {
+  position: relative;
+  
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  
+  width: 3.5rem;
+  height: 3.5rem;
+  
+  padding: 0.25rem;
+}
+.hero .read-more-icon svg {
+  fill: var(--color-custom-foreground);
+  transform: rotate(0deg);
+  will-change: transform;
+  transition: transform 0.3s ease;
+}
+.hero .read-more-text {
+  font-size: clamp(1.125rem, 3.5vw, 1.25rem);
+  font-weight: 500;
+  margin-left: 2rem;
+}
+.hero .read-more .wrapper-svg {
+  padding: .65em;
+  border: 2px solid var(--bg-gray);
+  border-radius: 3em;
+  transform: "none";
+}
+@media only screen and (min-width: 768px) {
+  .hero .inner {
+    grid-template-columns: 1fr 1fr;
+  }
+  .hero .line {
+       bottom: 0;
+   }
+  .hero .inner .wrapper-img {
+    order: 1;
+  }
+  .hero .title,
+  .hero .name {
+    text-align: start;
+  }
+  .hero .cta-buttons {
+    margin-right: auto;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .hero .read-more-wrapper {
+    display: block;
+  }
+}
+@media (any-hover: hover) {
+  .hero .cta-button.primary,
+  .hero .cta-button.secondary {
+    will-change: color, background;
+    transition: color .3s ease, background .3s ease;
+  }
+  .hero .cta-button.primary:hover {
+    color: var(--color-custom-background);
+    background: var(--color-primary);
+  }
+  .hero .cta-button.secondary:hover {
+    color: var(--color-primary);
+    background: var(--color-custom-background);
+  }
+  .hero .read-more .wrapper-svg {
+    will-change: border-color;
+    transition: border-color .3s ease;
+  }
+  .hero .read-more:hover .wrapper-svg {
+    border-color: var(--primary);
+  }  
+}
+
+
+
+.clr-1 {
+  position: absolute;
+  inset: 95% -10% -10%;
+  border-radius: 5em 0;
+  background-color: color-mix(in srgb, var(--primary) 100%, rgb(0 0 0 / 0));
+}
+
+
+
+
+/* 
+:root {
+  --blue1: #005184;
+  --blue2: #004272;
+  --blue3: #00345E;
+  --blue4: #002843;
+  --blue5: #071722;
+}
+.dark {
+  --blue1: #C2E6FF;
+  --blue2: #55BEFF;
+  --blue3: #44AFF3;
+  --blue4: #51BAFF;
+  --blue5: #0076BA;
+}
+.hero .wrapper-img {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+  z-index: -1;
+}
+.hero .wrapper-img img {
+	position: absolute;
+}
+.hero .wrapper-img .wrapper-perfil {
+	width: clamp(17em, 32vw, 29em);
+	height: clamp(17em, 32vw, 29em);
+	background-color: var(--primary);
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.hero .wrapper-img .circle {
+	position: absolute;
+	border-radius: 50%;
+}
+.hero .wrapper-img .clr-1 {
+	width: clamp(15em, 30vw, 27em);
+	height: clamp(15em, 30vw, 27em);
+	background-color: var(--primary);
+}
+
+.hero .wrapper-img .clr-2 {
+	width: clamp(13em, 28vw, 25em);
+	height: clamp(13em, 28vw, 25em);
+	background-color: var(--blue2);
+}
+.hero .wrapper-img .clr-3 {
+	width: clamp(11em, 26vw, 23em);
+	height: clamp(11em, 26vw, 23em);
+	background-color: var(--blue3);
+}
+.hero .wrapper-img .clr-4 {
+	width: clamp(9em, 24vw, 21em);
+	height: clamp(9em, 24vw, 21em);
+	background-color: var(--blue4);
+} 
+
+.clr-3 {
+  inset: 40% 0%;
+  width: 0;
+  height: 0;
+  border-left: 8em solid transparent;
+  border-right: 8em solid transparent;
+  border-bottom: 15em solid var(--bg-gray);
+  background: transparent;
+  z-index: 0;
+}
+.hero .wrapper-img .wrapper-perfil,
+.hero .wrapper-img .clr-1,
+.hero .wrapper-img .clr-2,
+.hero .wrapper-img .clr-3,
+.hero .wrapper-img .clr-4 {
+	max-width: 100%;
+	max-height: 100%;
+} 
+  */
