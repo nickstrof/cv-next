@@ -1,4 +1,3 @@
-// components/ItemList.tsx
 import './ItemList.css'
 
 type Item = {
