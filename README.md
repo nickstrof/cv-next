@@ -33,7 +33,7 @@
 This application requires Node.js v16.13+.
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/nickstrof/cv-next
 cd cv-next
 npm install
 npm run dev
