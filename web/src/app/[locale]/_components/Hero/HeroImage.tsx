@@ -13,7 +13,11 @@ const HeroImage = () => {
               width={300}
               height={300}
               // src={imagePaths.generic.placeholder}
-              src={imagePaths.generic.i7}
+              // src={imagePaths.generic.i7}
+              src={imagePaths.generic.i9}
+              // src={imagePaths.generic.i10}
+              // src={imagePaths.generic.i11}
+              // src={imagePaths.generic.i12}
 
               alt="Hero placeholder"
               priority

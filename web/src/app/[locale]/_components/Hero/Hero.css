@@ -198,13 +198,15 @@
   }  
 }
 
-
-
 .clr-1 {
   position: absolute;
   inset: 95% -10% -10%;
   border-radius: 5em 0;
   background-color: color-mix(in srgb, var(--primary) 100%, rgb(0 0 0 / 0));
+}
+.hero .circle.clr-4 {
+  border-radius: 12em;
+  overflow: hidden;
 }
 
 
