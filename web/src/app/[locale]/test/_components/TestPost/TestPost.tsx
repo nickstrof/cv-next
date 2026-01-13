@@ -33,14 +33,14 @@ interface TestPostProps {
 }
 const TestPost = ({ post }: TestPostProps) => {
   const locale = useLocale();
-  const formatDate = (dateString: string) => {
-    const date = new Date(dateString);
-    return new Intl.DateTimeFormat(locale === 'el' ? 'el-GR' : 'en-US', {
-      year: 'numeric',
-      month: 'long',
-      day: 'numeric'
-    }).format(date);
-  };
+  // const formatDate = (dateString: string) => {
+  //   const date = new Date(dateString);
+  //   return new Intl.DateTimeFormat(locale === 'el' ? 'el-GR' : 'en-US', {
+  //     year: 'numeric',
+  //     month: 'long',
+  //     day: 'numeric'
+  //   }).format(date);
+  // };
   const postImageUrl = post?.coverImage ? urlFor(post.coverImage) : null;
   const categories = [
     ...(post.articleCategories || []),
@@ -67,10 +67,10 @@ const TestPost = ({ post }: TestPostProps) => {
               <header className="mb-8">
                 <h1 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900 dark:text-white">{post.title}</h1> 
                 <div className="flex items-center text-gray-600 dark:text-gray-400 mb-4">
-                  <span className="text-sm">{formatDate(post.date)}</span>
+                  {/* <span className="text-sm">{formatDate(post.date)}</span> */}
                   {post.author && (
                     <>
-                      <span className="mx-2">•</span>
+                      {/* <span className="mx-2">•</span> */}
                       <span className="text-sm">{post.author.name}</span>
                     </>
                   )}
@@ -115,7 +115,7 @@ const TestPost = ({ post }: TestPostProps) => {
               )}
             </div>
           </article>
-          {post.author && (
+          {/* {post.author && (
             <div className="mt-8 bg-gray-50 dark:bg-gray-700 rounded-lg p-6">
               <div className="flex items-center">
                 {post.author.picture && (
@@ -137,7 +137,7 @@ const TestPost = ({ post }: TestPostProps) => {
                 </div>
               </div>
             </div>
-          )}
+          )} */}
         </div>
       </div>
     </SectionWrapper>

@@ -20,14 +20,14 @@ const Test = ({ posts }: BlogsListProps) => {
   }, [categoryFromUrl]);
 
 
-  const formatDate = (dateString: string) => {
-    const date = new Date(dateString);
-    return new Intl.DateTimeFormat(locale === 'el' ? 'el-GR' : 'en-US', {
-      year: 'numeric',
-      month: 'long',
-      day: 'numeric'
-    }).format(date);
-  };
+  // const formatDate = (dateString: string) => {
+  //   const date = new Date(dateString);
+  //   return new Intl.DateTimeFormat(locale === 'el' ? 'el-GR' : 'en-US', {
+  //     year: 'numeric',
+  //     month: 'long',
+  //     day: 'numeric'
+  //   }).format(date);
+  // };
 
   const allCategories = Array.from(
     new Set(
@@ -104,7 +104,7 @@ const Test = ({ posts }: BlogsListProps) => {
                   <div className="info">
                     <div className="info-header">
                       <h2>{featuredPost.title}</h2>
-                      <span>{formatDate(featuredPost.date)}</span>
+                      {/* <span>{formatDate(featuredPost.date)}</span> */}
                       <p>{featuredPost.excerpt}</p>
                     </div>
                     <div className={'read-more-wrapper'}>
@@ -135,7 +135,7 @@ const Test = ({ posts }: BlogsListProps) => {
                   </div>
                   <div className="info">
                     <h3>{blog.title}</h3>
-                    <span>{formatDate(blog.date)}</span>
+                    {/* <span>{formatDate(blog.date)}</span> */}
                   </div>
                 </div>
               </DynamicLink>

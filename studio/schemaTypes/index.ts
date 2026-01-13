@@ -20,7 +20,6 @@ import { // Stack Page
 
 import { // Blog Page
     authorSchema,
-    postSchema,
     test,
     articleCategories,
 } from './blogPage/index'
@@ -44,7 +43,6 @@ export const schemaTypes = [
 
     // Blog Page
     authorSchema,
-    postSchema,
     test,
     articleCategories,
 

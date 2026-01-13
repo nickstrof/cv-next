@@ -56,9 +56,9 @@
             "about": "Μάθετε περισσότερα για τον Νίκο"
         },
         "blog": {
-            "title": "Προτάσεις ιστολογίου",
+            "title": "Προτάσεις blog",
             "subtitle": "Ειδικά για εσάς",
-            "textLink": "Δείτε ολόκληρο το ιστολόγιο"
+            "textLink": "Δείτε ολόκληρο το blog"
         },
         "stack": {
             "title": "Stack",
@@ -91,7 +91,7 @@
             "cta": "Δείτε το Stack μου",
             "socials": {
                 "website": {
-                  "href": "https://nstrofyllas.com",
+                  "href": "https://nickstrofyllas.com",
                   "icon": "#icon-c-global",
                   "label": "@website"  
                 },

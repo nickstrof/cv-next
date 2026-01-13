@@ -3,21 +3,21 @@ import Image from "next/image";
 import { DynamicLink, SectionWrapper } from "@/components";
 import { BlogsListProps } from "@/types/blogs";
 import { urlFor } from "@/lib/sanity/sanity.image";
-import { useLocale } from 'next-intl';
+// import { useLocale } from 'next-intl';
 import { imagePaths } from '@/constants/images';
 import { useTranslations } from "next-intl";
 
 const HomeArticles = ({ posts }: BlogsListProps) => {
-    const locale = useLocale();
+    // const locale = useLocale();
     const t = useTranslations('HomePage');
-    const formatDate = (dateString: string) => {
-        const date = new Date(dateString);
-        return new Intl.DateTimeFormat(locale === 'el' ? 'el-GR' : 'en-US', {
-            year: 'numeric',
-            month: 'long',
-            day: 'numeric'
-        }).format(date);
-    };
+    // const formatDate = (dateString: string) => {
+    //     const date = new Date(dateString);
+    //     return new Intl.DateTimeFormat(locale === 'el' ? 'el-GR' : 'en-US', {
+    //         year: 'numeric',
+    //         month: 'long',
+    //         day: 'numeric'
+    //     }).format(date);
+    // };
   return (
     <div id="latest-blog">
         <SectionWrapper
@@ -47,7 +47,7 @@ const HomeArticles = ({ posts }: BlogsListProps) => {
                                 </div>
                                 <div className="info">
                                     <h3>{article.title}</h3>
-                                    <span>{formatDate(article.date)}</span>
+                                    {/* <span>{formatDate(article.date)}</span> */}
                                 </div>
                             </div>
                         </DynamicLink>
