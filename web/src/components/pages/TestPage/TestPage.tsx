@@ -1,4 +1,4 @@
-import { Test } from "@/app/[locale]/test/_components";
+import { Test } from "@/app/[locale]/blog/_components";
 import { PageWrapper } from "@/components";
 import { getTranslations } from "next-intl/server";
 import { getTestData } from "@/lib/sanity/sanity.queries";

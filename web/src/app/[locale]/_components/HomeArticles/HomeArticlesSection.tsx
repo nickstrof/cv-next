@@ -34,7 +34,7 @@ const HomeArticles = ({ posts }: BlogsListProps) => {
       <div className="homepage-articles">        
         <div className="articles-grid">
           {posts?.map((article) => (
-            <DynamicLink key={article.slug} href={`/test/${article.slug}`}>
+            <DynamicLink key={article.slug} href={`/blog/${article.slug}`}>
               <div className="article-card">
                 <div className="article-image">
                   <Image

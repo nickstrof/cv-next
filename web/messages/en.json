@@ -88,7 +88,7 @@
         "subtitle": "I am Nick Strofyllas, a Frontend Developer.",
         "hello": {
           "intro": {
-            "paragraph1": "Hi, I'm Nikos. I work as a Frontend Developer at DPG Digital Media Group, where my team creates compelling UI/UX experiences for users.",
+            "paragraph1": "I work as a Frontend Developer at DPG Digital Media Group, where my team creates compelling UI/UX experiences for users.",
             "paragraph2": "With over three years of experience designing and developing web software for companies and individuals, I have honed my skills in creating intuitive, user-friendly web applications that meet the needs of diverse clients. From concept to final delivery, I am experienced in all stages of the software development lifecycle."
           },
           "cta": "See my Stack",
@@ -111,8 +111,7 @@
           }
         },
         "experience": {
-          "title": "Ecperience",
-          "subtitle": "Here you will see my professional experience.",
+          "title": "Professional Experience",
           "dpgmedia": {
             "label": "DPG Digital Media · Full-time",
             "description": "May 2022 · Present"

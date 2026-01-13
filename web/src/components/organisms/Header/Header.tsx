@@ -31,10 +31,9 @@ const Navbar: FC<NavbarProps> = ({ hasBannerHeader }) => {
 
   const MENU_ITEMS: MenuItem[] = [
     { label: "Home", href: "/" },
-    { label: "Blog", href: "/test" },
+    { label: "Blog", href: "/blog" },
     { label: "Stack", href: "/stack" },
     { label: "About", href: "/about" },
-    // { label: "BlogTest", href: "/blogs" },
   ];
 
   // Effects

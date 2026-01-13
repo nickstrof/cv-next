@@ -19,7 +19,7 @@ const t = useTranslations('HomePage');
 
               <div className="cta-wrapper">
                   <div className="cta-buttons">
-                      <DynamicLink className="cta-button primary" href="/blogs" ariaLabel='Blog'>{t('hero.cta.blog')}</DynamicLink>
+                      <DynamicLink className="cta-button primary" href="/blog" ariaLabel='Blog'>{t('hero.cta.blog')}</DynamicLink>
                       <DynamicLink className="cta-button secondary" href="/stack" ariaLabel='Stack'>{t('hero.cta.stack')}</DynamicLink>
                   </div>
               </div>

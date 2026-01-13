@@ -23,7 +23,7 @@ const HomeArticles = ({ posts }: BlogsListProps) => {
         <SectionWrapper
             title={t('blog.title')}
             subtitle={t('blog.subtitle')}
-            link={"/blogs"}
+            link={"/blog"}
             textLink={t('blog.textLink')}
             // className={"bg-custom-background-second"}   
         >
@@ -31,7 +31,7 @@ const HomeArticles = ({ posts }: BlogsListProps) => {
                 {posts?.map((article) => {
                     // const postImageUrl = article?.coverImage ? urlFor(article.coverImage) : null;
                     return (
-                        <DynamicLink key={article.slug} href={`/test/${article.slug}`}>
+                        <DynamicLink key={article.slug} href={`/blog/${article.slug}`}>
                             <div className="blogs-blog">
                                 <div className="media">
                                     {/* {postImageUrl && ( */}

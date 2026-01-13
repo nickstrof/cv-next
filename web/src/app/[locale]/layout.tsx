@@ -16,9 +16,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Nick Strofyllas - Full Stack Developer",
-  description: "Personal portfolio and blog of Nick Strofyllas, a Full Stack Developer specializing in React, Next.js, and modern web technologies.",
-  keywords: ["Full Stack Developer", "React", "Next.js", "TypeScript", "Web Development"],
+  title: "Nick Strofyllas - Frontend Developer",
+  description: "Personal portfolio and blog of Nick Strofyllas, a Frontend Developer specializing in React, Next.js, and modern web technologies.",
+  keywords: ["Frontend Developer", "React", "Next.js", "TypeScript", "Web Development"],
   authors: [{ name: "Nick Strofyllas" }],
   creator: "Nick Strofyllas",
   publisher: "Nick Strofyllas",
@@ -46,14 +46,14 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     url: '',
-    title: 'Nick Strofyllas - Full Stack Developer',
-    description: 'Personal portfolio and blog of Nick Strofyllas, a Full Stack Developer specializing in React, Next.js, and modern web technologies.',
+    title: 'Nick Strofyllas - Frontend Developer',
+    description: 'Personal portfolio and blog of Nick Strofyllas, a Frontend Developer specializing in React, Next.js, and modern web technologies.',
     siteName: 'Nick Strofyllas Portfolio',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Nick Strofyllas - Full Stack Developer',
-    description: 'Personal portfolio and blog of Nick Strofyllas, a Full Stack Developer specializing in React, Next.js, and modern web technologies.',
+    title: 'Nick Strofyllas - Frontend Developer',
+    description: 'Personal portfolio and blog of Nick Strofyllas, a Frontend Developer specializing in React, Next.js, and modern web technologies.',
   },
 };
 

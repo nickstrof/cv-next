@@ -53,7 +53,7 @@ const TestPost = ({ post }: TestPostProps) => {
       <div className="max-w-4xl mx-auto">
         <div className="mb-8">
           <DynamicLink 
-            href="/test" 
+            href="/blog" 
             className="inline-flex items-center text-primary dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 transition-colors"
           >
             {/* <svg className="fill-primary" width="20" height="20"><use xlinkHref="#icon-c-arrow-left" /></svg> */}
@@ -82,7 +82,7 @@ const TestPost = ({ post }: TestPostProps) => {
                           {categories.map((category, index) => (
                             <DynamicLink
                               key={`${category.title}-${index}`}
-                              href={`/test?category=${encodeURIComponent(category.title)}`}
+                              href={`/blog?category=${encodeURIComponent(category.title)}`}
                               className="inline-block bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-xs px-3 py-1 rounded-full font-medium hover:bg-blue-200 dark:hover:bg-blue-800 transition-colors cursor-pointer"
                             >
                               {category.title}

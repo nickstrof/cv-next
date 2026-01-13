@@ -90,7 +90,7 @@ const Test = ({ posts }: BlogsListProps) => {
         {featuredPost && (
           <div className="featured-wrapper">
             <div className="featured-inner">
-              <DynamicLink className="featured-post-link" href={`/test/${featuredPost.slug}`}>
+              <DynamicLink className="featured-post-link" href={`/blog/${featuredPost.slug}`}>
                 <div className="featured-post" key={featuredPost.slug}>
                   <div className="media">
                     <Image
@@ -123,7 +123,7 @@ const Test = ({ posts }: BlogsListProps) => {
         <div className="blogs-list">
           {otherPosts.map((blog) => {
             return (
-              <DynamicLink key={blog.slug} href={`/test/${blog.slug}`}>
+              <DynamicLink key={blog.slug} href={`/blog/${blog.slug}`}>
                 <div className="blogs-blog">
                   <div className="media">
                     <Image

@@ -1,7 +1,7 @@
 export default function sitemap() {
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://localhost:3000';
   const locales = ['en', 'el'];
-  const routes = ['', '/about', '/stack', '/test'];
+  const routes = ['', '/about', '/stack', '/blog'];
 
   const urls = [];
 

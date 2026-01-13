@@ -38,7 +38,6 @@ const HelloSection = () => {
 
         <SectionWrapper
             title={t('experience.title')}
-            subtitle={t('experience.subtitle')}
         >
             <ItemList 
                 items={translatedExperience}
