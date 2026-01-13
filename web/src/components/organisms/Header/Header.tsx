@@ -34,7 +34,7 @@ const Navbar: FC<NavbarProps> = ({ hasBannerHeader }) => {
     { label: "Blog", href: "/test" },
     { label: "Stack", href: "/stack" },
     { label: "About", href: "/about" },
-    { label: "BlogTest", href: "/blogs" },
+    // { label: "BlogTest", href: "/blogs" },
   ];
 
   // Effects
